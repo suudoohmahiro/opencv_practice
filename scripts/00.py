@@ -11,3 +11,8 @@ cv2.circle(img, (240, 700), 90, (255, 128, 0), thickness=3, lineType=cv2.LINE_AA
 
 cv2.imshow('sample', img)
 cv2.waitKey(0)
+
+height, width = img.shape[:2]
+
+print(height)  # 533
+print(width) 
